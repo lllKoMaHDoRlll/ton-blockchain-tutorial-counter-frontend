@@ -39,6 +39,10 @@ function App() {
           <div>
             {owner_address?.toString() ?? "Loading..."}
           </div>
+          <b>Recent sender</b>
+          <div>
+            {recent_sender?.toString() ?? "Loading..."}
+          </div>
         </div>
         <div className="Card">
           <b>Counter Value</b>
